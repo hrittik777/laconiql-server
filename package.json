@@ -1,0 +1,28 @@
+{
+  "name": "laconiql-server",
+  "version": "1.0.0",
+  "description": "A ready-to-use minimalistic server powered by NodeJS and GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrittik777/laconiql-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrittik777/laconiql-server/issues"
+  },
+  "homepage": "https://github.com/hrittik777/laconiql-server#readme",
+  "dependencies": {
+    "apollo-server": "^2.23.0",
+    "graphql": "^15.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

@@ -1,2 +1,2 @@
 # laconiql-server
-A ready-to-use minimalistic server powered by NodeJS and GraphQL
+LaconiQL is a ready-to-use minimalistic NodeJS and GraphQL server powered by Apollo-Server and Prisma with PostgreSQL.
