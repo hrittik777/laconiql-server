@@ -5,13 +5,13 @@ const path = require('path');
 let links = [{
     id: 'link-0',
     url: 'test',
-    description: 'Hello World'
+    description: 'test-desc'
 }];
 
 let idCount = links.length;
 const resolvers = {
     Query: {
-        info: () => `This is the API of a Hackernews Clone`,
+        info: () => 'Hello World',
         feed: () => links,
         link: (parent, args) => {
             return links.find(item => item.id === args.id);
